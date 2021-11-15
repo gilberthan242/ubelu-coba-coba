@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubelu Coffee</title>
+    <link rel="icon" href="assets/pc/footer4.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="bg">
+      <img src="assets/pc/bg.png" alt="">
+    </div>
+
+    <section class="container_p1">
+      <div id="P1" class="panel1">
+        <img class="logo_p1" src="assets/pc/logo_p1.png" alt="">
+        <img class="judul_p1" src="assets/pc/judul_p1.png" alt="">
+        <img class="isi_p1" src="assets/pc/isi_p1.png" alt="">
+        <img id="myImg01" class="contactus" src="assets/pc/contactus.png" onclick="onClick(myImg10)" alt=""></a>
+        <img id="myImg10" src="assets/pc/kartunama.png" style="display:none;" alt="Ulubelu">
+      </div>
+      <!-- The Modal -->
+      <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <div class="container">
+            <img class="modal-content" id="img01">
+        </div>
+        <div id="caption"></div>
+      </div>
+    </section>
+    
+<div id="modal02" class="modal2" onclick="this.style.display='none'">
+          <div class="container2">
+              <img class="modal-content2" id="img02">
+          </div>
+          <div id="caption2"></div>
+        </div>
+    <section class="container_p2_l">
+      <div class="panel2_kiri">
+        <img src="assets/pc/produk.png" alt="">
+        <div class="button_p2">
+          <a href="https://tokopedia.link/D5fFmvELwkb " target="_blank" rel="noopener noreferrer"> <img class="shopee" src="assets/pc/tokped.png" alt=""></a>
+          <a href="https://shopee.co.id/product/165966024/13113693584?smtt=0.154874497-1634794135.9" target="_blank" rel="noopener noreferrer"> <img class="tokped" src="assets/pc/shopee.png" alt=""></a>
+          <a href="https://wa.wizard.id/234160" target="_blank" rel="noopener noreferrer"> <img class="wa" src="assets/pc/wa.png" alt=""></a>
+        </div>
+
+        <div class="addtocart">
+          <a href="https://linktr.ee/ubelu.co.id " target="_blank" rel="noopener noreferrer"><img src="assets/pc/add to cart.png" alt=""></a>
+        </div>
+
+        <!-- The Modal 2-->
+        <div class="desc_pro">
+          <img class="On_img" id="myImg02" src="assets/pc/deskripsi produk.png" onclick="onClick2(myImg09)" alt=""></a>
+          <img id="myImg09" src="assets/pc/deskripsi_modal.png" style="display:none;" alt="Ulubelu">
+        </div>
+        
+    </section>
+    
+
+    <section class="container_p2_r">
+      <div class="panel2_kanan">
+        <img src="assets/pc/saran_penyajian.png" alt="">
+      </div>
+    </section>
+    
+
+    <section class="container_p3">
+      <div class="panel3">
+        <img src="assets/pc/panel3.png" alt="">
+      </div>
+    </section>
+    
+
+    <section class="container_p4">
+      <div class="panel4">
+        <img src="assets/pc/panel4.png" alt="">
+      </div>
+    </section>
+    
+    <section class="container_p5">
+      <div class="panel5">
+        <img src="assets/pc/panel5.png" alt="">
+        <div class="footer">
+          <a href="https://wa.wizard.id/234160" target="_blank" rel="noopener noreferrer"><img class="footer1" src="assets/pc/footer1.png" alt=""></a>
+          <a href=""><img class="footer2" src="assets/pc/footer2.png" alt=""></a>
+          <a href="https://www.instagram.com/ubelu_coffee/?hl=id" target="_blank" rel="noopener noreferrer"><img class="footer3" src="assets/pc/footer3.png" alt=""></a>
+          <a href="#P1"><img class="footer4" src="assets/pc/footer4.png" alt=""></a>
+        </div>
+        <div class="footer">
+          <a href="http://www.ulubelu.co.id/ " target="_blank" rel="noopener noreferrer"><img class="footer5" src="assets/pc/footer5.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container_p6">
+      <div class="panel6">
+        <img src="assets/pc/panel6.png" alt="">
+      </div>
+    </section>
+
+    <script>
+      //------------Modal 1---------------
+        if (screen.width < 1024) {
+            document.location = "mobile.html";
+            }
+
+        if (w < 1200){
+            document.body.style.zoom="50%"
+            }
+
+        var w = window.innerWidth;
+        window.addEventListener('resize', function () { 
+            "use strict";
+            window.location.reload(); 
+            });
+
+        var captionText = document.getElementById("caption");
+        
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            }
+        function onClick2(element) {
+            document.getElementById("img02").src = element.src;
+            document.getElementById("modal02").style.display = "block";
+            }
+
+    </script>
+
+</body>
+</html>
