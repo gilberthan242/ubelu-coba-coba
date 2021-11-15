@@ -1,0 +1,1262 @@
+/* *{
+  outline: 1px red solid;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-repeat:no-repeat;
+  margin: 0 auto;
+  background-color: black;
+}
+
+/* ------------------------PANEL 1------------------------------- */
+
+.panel1{
+  width: 1700px;
+  margin-top: -835px;
+  margin-left: 100px;
+}
+
+.bg{
+  max-width: 10000px;
+  height: 835px;
+  background-color: #C7E3F9;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+.bg img{
+  position: fixed;
+  z-index: 0;
+  max-height: 99%;
+}
+
+.container_p1{
+  max-width: 10000px;
+  height: 835px;
+  background-color: #C7E3F9;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+.logo_p1{
+position: relative;
+width: 176px;
+height: 186px;
+left: 85px;
+top: 87px;
+}
+
+.judul_p1{
+position: relative;
+width: 547px;
+height: 115.11px;
+left: 86px;
+top: 70px;
+}
+
+.isi_p1{
+position: relative;
+width: 615px;
+height: 185px;
+left: 101px;
+top: 95px;
+}
+
+.contactus{
+position: relative;
+width: 224px;
+height: 56px;
+left: 100px;
+top: 125px;
+cursor: pointer;
+}
+
+.panel1 img{
+  display: flex;
+  justify-content: center;
+}
+
+/* 80% */
+@media screen and (min-width : 1760px) and (max-width : 1920px){
+  .bg{
+      height: 755px;
+  }
+  
+  .panel1{
+    min-height: 900px;
+    margin-top: -755px;
+    margin-left: 30px;
+  }
+
+  .container_p1{
+    min-width: 1200px;
+    max-width: 10000px;
+    height: 915.5px;
+    background-color: #C7E3F9;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+}
+
+/* 90% */
+@media screen and (min-width : 1600px) and (max-width : 1759px){
+  .bg{
+      height: 755px;
+  }
+  
+  .panel1{
+    min-height: 800px;
+    margin-top: -755px;
+    margin-left: 30px;
+  
+  }
+  .container_p1{
+    max-width: 10000px;
+    height: 900px;
+    background-color: #C7E3F9;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+}
+
+/* 100% */
+@media screen and (min-width : 1440px) and (max-width : 1599px){
+  .bg{
+      height: 755px;
+  }
+
+  .bg img{
+    height: 780px;
+}
+  
+  .panel1{
+    min-height: 800px;
+    margin-top: -755px;
+    margin-left: 0px;
+  }
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .bg{
+      height: 755px;
+  }
+
+  .bg img{
+    height: 720px;
+  }
+
+  .panel1{
+    min-height: 900px;
+    margin-top: -755px;
+    margin-left: 0px;
+  }
+
+  .logo_p1{
+    width: 169px;
+    height: 168px;
+    left: 85px;
+    top: 87px;
+  }
+
+  .judul_p1{
+    width: 492px;
+    height: 104px;
+    left: 86px;
+    top: 70px;
+  }
+
+  .isi_p1{
+    width: 554px;
+    height: 167.5px;
+    left: 101px;
+    top: 95px;
+  }
+    
+  .contactus{
+    width: 202px;
+    height: 50.4px;
+    left: 100px;
+    top: 125px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+
+  .bg{
+      height: 655px;
+  }
+
+  .bg img{
+    height: 660px;
+  }
+
+  .panel1{
+    min-height: 900px;
+    margin-top: -655px;
+    margin-left: 0px;
+  }
+
+  .logo_p1{
+    width: 153px;
+    height: 152px;
+    left: 85px;
+    top: 87px;
+  }
+
+  .judul_p1{
+    width: 443px;
+    height: 94px;
+    left: 86px;
+    top: 70px;
+  }
+
+  .isi_p1{
+    width: 500px;
+    height: 151px;
+    left: 101px;
+    top: 95px;
+  }
+    
+  .contactus{
+    width: 182px;
+    height: 45.3px;
+    left: 100px;
+    top: 125px;
+  }
+}
+
+/* 125% */
+@media screen and (min-width : 1090px) and (max-width : 1199px){
+
+  .bg{
+      height: 630px;
+  }
+
+  .bg img{
+    height: 500px;
+  }
+
+  .panel1{
+    min-height: 900px;
+    margin-top: -655px;
+    margin-left: 0px;
+  }
+
+  .logo_p1{
+    width: 115px;
+    height: 114px;
+    left: 85px;
+    top: 87px;
+  }
+
+  .judul_p1{
+    width: 364px;
+    height: 75px;
+    left: 86px;
+    top: 70px;
+  }
+
+  .isi_p1{
+    width: 430px;
+    height: 138px;
+    left: 101px;
+    top: 95px;
+  }
+    
+  .contactus{
+    width: 164px;
+    height: 40.77px;
+    left: 100px;
+    top: 125px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1089px){
+  
+  .bg{
+    height:605px;
+}
+
+.bg img{
+  height: 660px;
+}
+
+.panel1{
+  min-height: 900px;
+  margin-top: -655px;
+  margin-left: -20px;
+}
+
+.logo_p1{
+  width: 153px;
+  height: 152px;
+  left: 85px;
+  top: 87px;
+}
+
+.judul_p1{
+  width: 443px;
+  height: 94px;
+  left: 86px;
+  top: 70px;
+}
+
+.isi_p1{
+  width: 500px;
+  height: 151px;
+  left: 101px;
+  top: 95px;
+}
+  
+.contactus{
+  width: 182px;
+  height: 45.3px;
+  left: 100px;
+  top: 125px;
+}
+}
+
+/* ----------------------PANEL 2 -- KIRI-------------------------- */
+
+.container_p2_l{
+  position: relative;
+  max-width: 10000px;
+  width: 50%;
+  height: 720px;
+  background-color: #DDEFFF;
+  display: flex;
+  justify-content: right;
+  z-index: 0;
+  margin-top: -835px;
+}
+  
+.panel2_kiri img{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 720px;
+  max-width: 800px;
+}
+
+
+/* 90% */
+@media screen and (min-width : 1600px) and (max-width : 1759px){
+  
+  .panel2_kiri img{
+    height: 800px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+  .container_p2_l{
+    max-width: 10000px;
+    width: 50%;
+    height: 670px;
+    background-color: #DDEFFF;
+    display: flex;
+    justify-content: right;
+    z-index: 0;
+    margin-top: -835px;
+  }
+    
+  .panel2_kiri img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 670px;
+    max-width: 800px;
+  }
+}
+
+/* 125% */
+@media screen and (min-width : 1090px) and (max-width : 1199px){
+  
+  .container_p2_l{
+    max-width: 10000px;
+    width: 50%;
+    height: 620px;
+    background-color: #DDEFFF;
+    display: flex;
+    justify-content: right;
+    z-index: 0;
+    margin-top: -835px;
+  }
+    
+  .panel2_kiri img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 620px;
+    max-width: 800px;
+  }
+}
+
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1089px){
+  
+  .container_p2_l{
+    max-width: 10000px;
+    width: 50%;
+    height: 670px;
+    background-color: #DDEFFF;
+    display: flex;
+    justify-content: right;
+    z-index: 0;
+    margin-top: -835px;
+  }
+    
+  .panel2_kiri img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 670px;
+    max-width: 800px;
+  }
+}
+
+/* ----------------------------PANEL 2 -- KANAN----------------------------- */
+
+.container_p2_r{
+  position: relative;
+  float: right;
+  max-width: 10000px;
+  width: 50.1%;
+  max-height: 720px;
+  background-color: #ffffff;
+  display: flex;
+  z-index: 0;
+  margin-top: -720px;
+}
+
+.panel2_kanan img{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 720px;
+  max-width: 808px;
+}
+
+/* 90% */
+@media screen and (min-width : 1600px) and (max-width : 1759px){
+  
+  .panel2_kanan img{
+    position: relative;
+    z-index: 0;
+    height: 800px;
+  }
+}
+
+/* 100% */
+@media screen and (min-width : 1440px) and (max-width : 1599px){
+  
+  .panel2_kanan img{
+    position: relative;
+    z-index: 0;
+    height: 770px;
+  }
+
+    .container_p2_r{
+    float: right;
+    max-width: 10000px;
+    width: 50%;
+    height: 752px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 0;
+    }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+  .container_p2_r{
+    float: right;
+    max-width: 10000px;
+    width: 50.1%;
+    max-height: 670px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 0;
+    margin-top: -670px;
+  }
+  
+  .panel2_kanan img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 670px;
+    max-width: 808px;
+  }
+}
+
+/* 125% */
+@media screen and (min-width : 1090px) and (max-width : 1199px){
+  
+  .container_p2_r{
+    float: right;
+    max-width: 10000px;
+    width: 50.1%;
+    max-height: 620px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 0;
+    margin-top: -620px;
+  }
+  
+  .panel2_kanan img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 620px;
+    max-width: 808px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1089px){
+  
+  .container_p2_r{
+    float: right;
+    max-width: 10000px;
+    width: 50.1%;
+    max-height: 670px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 0;
+    margin-top: -670px;
+  }
+  
+  .panel2_kanan img{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 670px;
+    max-width: 808px;
+  }
+}
+
+/* ---------------------------PANEL 2 ISI------------------------------------ */
+
+.button_p2{
+  margin-top: -654px;
+}
+
+.button_p2 .shopee{
+  position: relative;
+  margin-left: 34%;
+  width: 47px;
+  height: 50px;
+}
+
+.button_p2 .tokped{
+  position: relative;
+  margin-left: 6%;
+  width: 47px;
+  height: 50px;
+}
+
+.button_p2 .wa{
+  position: relative;
+  margin-left: 6%;
+  width: 47px;
+  height: 50px;
+}
+
+.addtocart img{
+  position: relative;
+  width: 217.26px;
+  height: 39.07px;
+  margin-top: 3%;
+  margin-left: 35.2%;
+}
+
+.desc_pro img{
+  position: relative;
+  width: 285.35px;
+  height: 43px;
+  margin-top: 61%;
+  margin-left: 31%;
+}
+
+/* 80% */
+@media screen and (min-width : 1760px){
+  
+  .desc_pro img{
+    margin-top: 57%;
+    margin-left: 31.5%;
+  }
+}
+
+/* 90% */
+@media screen and (min-width : 1600px) and (max-width : 1759px){
+  
+  .button_p2{
+    margin-top: -710px;
+  }
+  
+  .addtocart img{
+    margin-top: 3%;
+    margin-left: 35.8%;
+  }
+  
+  .desc_pro img{
+    margin-top: 59%;
+    margin-left: 31.5%;
+  }
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .button_p2 .shopee{
+    margin-left: 33%;
+  }
+
+  .button_p2 .wa{
+    margin-left: 5%;
+    height: 48px;
+  }
+
+  .addtocart img{
+    position: relative;
+    width: 210px;
+    height: 37px;
+    margin-top: 3%;
+    margin-left: 34%;
+  }
+
+  .desc_pro img{
+    width: 260px;
+    height: 40px;
+    margin-top: 68%;
+    margin-left: 30%;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+
+  .button_p2{
+    margin-top: -604px;
+  }
+
+  .button_p2 .shopee{
+    margin-left: 33%;
+    width: 42.6px;
+    height: 45px;
+  }
+  
+  .button_p2 .tokped{
+    margin-left: 6%;
+    width: 42.6px;
+    height: 45px;
+  }
+  
+  .button_p2 .wa{
+    margin-left: 6%;
+    width: 42.6px;
+    height: 45px;
+  }
+
+  .addtocart img{
+    width: 189px;
+    height: 33.3px;
+    margin-top: 4%;
+    margin-left: 34.5%;
+  }
+
+  .desc_pro img{
+    width: 234px;
+    height: 36px;
+    margin-top: 63%;
+    margin-left: 31%;
+  }
+}
+
+/* 125% */
+@media screen and (min-width : 1090px) and (max-width : 1199px){
+
+  .button_p2{
+    margin-top: -550px;
+  }
+
+  .button_p2 .shopee{
+    margin-left: 32%;
+    width: 39px;
+    height: 41px;
+  }
+  
+  .button_p2 .tokped{
+    margin-left: 6%;
+    width: 39px;
+    height: 41px;
+  }
+  
+  .button_p2 .wa{
+    margin-left: 6%;
+    width: 39px;
+    height: 41px;
+  }
+
+  .addtocart img{
+    width: 180px;
+    height: 30px;
+    margin-top: 3.5%;
+    margin-left: 33%;
+  }
+
+  .desc_pro img{
+    width: 220px;
+    height: 30px;
+    margin-top: 66%;
+    margin-left: 29.5%;
+  }
+}
+
+/* 140% */
+@media screen and (max-width : 1089px){
+  
+  .button_p2{
+    margin-top: -604px;
+  }
+
+  .button_p2 .shopee{
+    margin-left: 33.6%;
+    width: 38px;
+    height: 41px;
+  }
+  
+  .button_p2 .tokped{
+    margin-left: 6%;
+    width: 38px;
+    height: 41px;
+  }
+  
+  .button_p2 .wa{
+    margin-left: 6%;
+    width: 38px;
+    height: 41px;
+  }
+
+  .addtocart img{
+    width: 189px;
+    height: 33.3px;
+    margin-top: 4%;
+    margin-left: 34%;
+  }
+
+  .desc_pro img{
+    width: 234px;
+    height: 36px;
+    margin-top: 69%;
+    margin-left: 30%;
+  }
+}
+
+/* PANEL 3 */
+
+.container_p3{
+  position: relative;
+  max-width: 10000px;
+  height: 80px;
+  background-color: #B5DBF9;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.panel3 img{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  max-width: 1600px;
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .container_p3{
+    height: 75px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  .container_p3{
+    height: 68px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1199px){
+  
+  .container_p3{
+    height: 60px;
+  }
+}
+
+/* ------------------------------PANEL 4-------------------------------- */
+
+.container_p4{
+  position: relative;
+  max-width: 10000px;
+  height: 617px;
+  background-color: #8DBDE8;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.panel4 img{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+/* 90% (G) */
+@media screen and (min-width : 1440px) and (max-width : 1520px){
+  .container_p4{
+    height: 609px;
+  }
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .container_p4{
+    height: 547px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  .container_p4{
+    height: 498px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1199px){
+  
+  .container_p4{
+    height: 470px;
+  }
+}
+
+/* ------------------------------------PANEL 5------------------------------------- */
+
+.container_p5{
+  position: relative;
+  max-width: 10000px;
+  height: 190px;
+  background-color: #354A9B;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.panel5 img{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  max-width: 1600px;
+}
+
+/* 90% (G) */
+@media screen and (min-width : 1440px) and (max-width : 1520px){
+  .container_p5{
+    height: 180px;
+  }
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .container_p5{
+    height: 168px;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  .container_p5{
+    height: 154px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1199px){
+  
+  .container_p5{
+    height: 146px;
+  }
+}
+
+/* --------------FOOTER (Panel 5)-------------- */
+
+.footer{
+  z-index: 0;
+  margin-top: -7.87%;
+  margin-left: 42.5%;
+}
+
+.footer .footer1{
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.footer .footer2{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+.footer .footer3{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+.footer .footer4{
+  position: relative;
+  width: 35px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+.footer .footer5{
+  position: relative;
+  width: 77px;
+  height: 76px;
+  margin-top: 6%;
+  margin-left: 50.5%;
+}
+
+/* 90% kebawah */
+@media screen and (min-width : 1670px) {
+  .footer{
+    margin-left: 43%;
+  }
+}
+
+/* 110% */
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+  .footer{
+    margin-left: 41.8%;
+  }
+
+  .footer .footer5{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    margin-top: 4.7%;
+    margin-left: 49.8%;
+  }
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  
+  .footer{
+    margin-top: -7.87%;
+    margin-left: 42.5%;
+  }
+  
+  .footer .footer1{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer .footer2{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer .footer3{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer .footer4{
+    width: 27px;
+    height: 40px;
+  }
+  
+  .footer .footer5{
+    width: 63px;
+    height: 64px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1199px){
+  
+  .footer{
+    margin-top: -7.87%;
+    margin-left: 43%;
+  }
+  
+  .footer .footer1{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer .footer2{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer .footer3{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer .footer4{
+    width: 23px;
+    height: 35px;
+  }
+  
+  .footer .footer5{
+    width: 57px;
+    height: 58px;
+  }
+}
+
+/* -----------------------------------PANEL 6--------------------------------- */
+
+.container_p6{
+  position: relative;
+  max-width: 10000px;
+  height: 45px;
+  background-color: #222558;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+
+.panel6 img{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  max-width: 1600px;
+}
+
+/* 120% */
+@media screen and (min-width : 1200px) and (max-width : 1299px){
+  .container_p6{
+    height: 40px;
+  }
+}
+
+/* 130% */
+@media screen and (min-width : 1025px) and (max-width : 1199px){
+  
+  .container_p6{
+    height: 36px;
+  }
+}
+
+/* ------------ MODAL WINDOWS FOR IMAGE --------------*/
+#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.1s;
+  animation-name: zoom;
+  animation-duration: 0.1s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.5)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0.5)} 
+  to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.container{
+  position: relative;
+  height: 50%;
+  margin: 0 auto;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.container{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(141, 189, 232, 0.5);
+
+}
+
+.modal img{
+  margin-top: 38%;
+  margin-left: -60%;
+  height: 308px;
+  width: 544px;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/* Caption of Modal Image */
+#caption {
+  display: block;
+  width: 50%;
+  max-width: 700px;
+  text-align: left;
+  height: 150px;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* ------------ MODAL WINDOWS FOR IMAGE --------------*/
+#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 800px;
+  height: 120%;
+  width: 100%;
+  overflow: hidden; /* Enable scroll if needed */
+}
+
+.modal2 img{
+  margin-top: 38%;
+  margin-left: -70%;
+  height: 308px;
+  width: 544px;
+}
+
+/* Modal Content (image) */
+.modal-content2 {
+  display: block;
+  width: 100%;
+  max-width: 1169px;
+}
+
+/* Caption of Modal Image */
+#caption2 {
+  display: block;
+  width: 50%;
+  max-width: 700px;
+  text-align: left;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content2, #caption2 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.1s;
+  animation-name: zoom;
+  animation-duration: 0.1s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.5)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0.5)} 
+  to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content2 {
+    width: 100%;
+  }
+}
+
+.container2{
+  position: relative;
+  height: 50%;
+  margin: 0 auto;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+.container2{  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
